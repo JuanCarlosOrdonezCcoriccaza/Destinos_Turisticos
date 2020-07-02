@@ -4,13 +4,6 @@ from django.db import models
 
 
 class accounts(models.Model):
-
-    username = models.models.CharField(max_length=100)
-    password = models.class Mixin(models.Model):
+    username = models.CharField(max_length=100)
+    password = models.models.CharField(min_length=8)
     
-        
-    
-        class Meta:
-            abstract = True
-    
-) 
