@@ -24,10 +24,7 @@ def index(request):
     dest3.img = 'destination_8.jpg'
     dest3.price = 569.9
     dest3.offer = False;
-    
+
     dests = [dest1,dest2,dest3]
     
     return render( request ,'index.html',{'dests':dests})
-
-def login(request):
-    return HttpResponse('login.html')
